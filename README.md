@@ -262,6 +262,7 @@ Copy your Grafana Public IP Address and paste on the browser = http:://GrafanaSe
         - Save
     - Refresh your Grafana Dashbaord 
         - Click on the "Drop Down" for "Host" and select any of the "Instances(IP)"
+        - .
 
 3) #### Create Jenkins Performance and Health Overview Dashboard:    
     - Navigate to "Create" on your left (the `+` sign)
