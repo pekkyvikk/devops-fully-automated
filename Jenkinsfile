@@ -71,7 +71,7 @@ pipeline {
                         sh """
                         mvn sonar:sonar \
                         -Dsonar.projectKey=cicd-app-pipeline \
-                        -Dsonar.host.url=http://54.209.205.3:9000 \
+                        -Dsonar.host.url=http://172.31.25.79.3:9000 \
                         -Dsonar.login=40c3953fca982a65ab6480995e4ab1f1655fd521
                         """
                     }
