@@ -73,6 +73,9 @@ pipeline {
                         -Dsonar.projectKey=maven \
                         -Dsonar.host.url=http://172.31.25.79:9000 \
                         -Dsonar.login=$SONAR_TOKEN
+                        --add-opens java.base/java.lang=ALL-UNNAMED \
+                        --add-opens java.base/java.lang.reflect=ALL-UNNAMED \
+                        --add-opens java.base/java.util=ALL-UNNAMED
                         '''
                     }
                 }
